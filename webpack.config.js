@@ -105,8 +105,8 @@ module.exports = {
         noParse: [/.+zone\.js\/dist\/.+/, /.+angular2\/bundles\/.+/]
     },
     tslint: {
-        emitErrors: true,
-        failOnHint: true
+        emitErrors: false,
+        failOnHint: false
     },
     devServer: {
         historyApiFallback: true,

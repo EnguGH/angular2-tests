@@ -1,0 +1,2 @@
+<h2>Missions</h2>
+<missionCard *ngFor="#card of missions" [title]="card.title" [image]="card.image" [id]="card.id" [routerLink]="['/Mission', {id: card.id}]"></missionCard>

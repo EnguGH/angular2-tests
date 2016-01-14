@@ -1,0 +1,15 @@
+<div class="login">
+    <div class="login__Vcenter">
+    <div class="login__Hcenter">
+        <img src="http://analytics.yoobic.com/images/analytics/logo_analytics.png">
+        <input #email placeholder="Email" (keyup)="null"/>
+        <input #password placeholder="Password" type="password"/>
+        <!-- <button  (click)="authenticate(email.value, password.value)">{{email.value}}</button> -->
+        <button (click)="clicked()">{{clickCount}}</button>
+        <a *ngIf=show href="#" [routerLink]="['/artist', {id: 'abc'}]">Forgot your password ?</a>
+        <ul>
+			<li *ngFor="#t of todos">{{t.id}}</li>
+        </ul>
+        </div>
+    </div>
+</div>
