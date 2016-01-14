@@ -5,4 +5,4 @@ import {bootstrap} from 'angular2/platform/browser';
 import {AppComponent} from './app.component';
 /* beautify ignore:end */
 
-bootstrap(AppComponent,);
+bootstrap(AppComponent);
